@@ -52,7 +52,7 @@ public class TTMain {
 
 		final File page200 = new File("/home/pi/Pages/R20000.TTIx");
 		final String template200 = IOUtils
-				.toString(Thread.currentThread().getContextClassLoader().getResourceAsStream("R20000.TTIx"), "ASCII");
+				.toString(Thread.currentThread().getContextClassLoader().getResourceAsStream("R20000.TTIx"), "US-ASCII");
 
 		// Create a custom response handler
 		ResponseHandler<String> responseHandler = new ResponseHandler<String>() {
@@ -94,7 +94,7 @@ public class TTMain {
 
 				String renderedPage = template200.replace("SSSSSSSSSSSSSS", displayStatus);
 
-				FileUtils.write(page200, renderedPage, "ASCII");
+				FileUtils.write(page200, renderedPage, "US-ASCII");
 				System.out.println("updated page: " + displayStatus);
 
 				Thread.sleep(10 * 1000);
