@@ -1,22 +1,22 @@
 PN,20000
 DE,none
 PS,8000
-SC,3F7F
+SC,0000
 OL,1,                                        
 OL,2,                                        
-OL,3,                                        
+OL,3, STITLE        ** CYBERKLO USAGE **                                       
 OL,4,                                        
-OL,5,                                        
-OL,6,                                        
-OL,7, --------- METAKLO STATUS ---------   
+OL,5,                                          
+OL,6,                                      
+OL,7, HCYBER  ------------ SITZKLO -----------
 OL,8,                                        
-OL,9,                                        
+OL,9, SCYBER CCCCCCCCCCCCCC                           
 OL,10,                                        
-OL,11,          SSSSSSSSSSSSSS             
-OL,12,                                        
-OL,13,                                        
-OL,14,                                        
-OL,15,                                        
+OL,11,              
+OL,12,                                    
+OL,13, HSTEH  ------------ STEHKLO ----------- 
+OL,14,                            
+OL,15, SSTEH SSSSSSSSSSSSSS                                        
 OL,16,                                        
 OL,17,                                        
 OL,18,                                        
@@ -25,5 +25,5 @@ OL,20,
 OL,21,                                        
 OL,22,                                        
 OL,23,                                        
-OL,24,                                        
+OL,24,    LAST UPDATED: TTTTTTTTTTTTTTTTTTT                                      
 FL,0,0,0,0,0,0
